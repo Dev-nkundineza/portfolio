@@ -1,17 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client"; // Use react-dom/client for React 18
+import { BaseProvider, LightTheme } from "baseui";
+import { Provider as StyletronProvider } from "styletron-react";
+import { Client as Styletron } from "styletron-engine-atomic";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "./index.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import "./assests/font-awesome/css/all.css";
+
+const engine = new Styletron();
+const rootElement = document.getElementById("root");
+
+// Create a root using React 18's createRoot
+const root = ReactDOM.createRoot(rootElement);
+
+// Use the root to render your app
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <StyletronProvider value={engine}>
+    <BaseProvider theme={LightTheme}>
+      <App />
+    </BaseProvider>
+  </StyletronProvider>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Keep the service worker registration as it was
+serviceWorker.unregister();
