@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A dedicated software developer, tech enthusiast, committed to developing solutions employing coding talents to produce impactful, scalable, and technological systems ",
   resumeLink:
-    "https://dev-nkundineza.github.io/cvproject/",
+    "https://drive.google.com/file/d/12fVeE0yfhiheR0J4VUXcNxgIlrlBmrKo/view?usp=drive_link",
   portfolio_repository: "https://github.com/Dev-nkundineza",
   githubProfile: "https://github.com/Dev-nkundineza",
 };
@@ -324,6 +324,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Master's in Information Technology",
+      subtitle: "Degree",
+      logo_path: "Cmu-logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1fhF38sHj8YGNvrw2Hz9hRpNDdTlH2V0r/view?usp=drive_link",
+      alt_name: "MSIT",
+      color_code: "#8C151599",
+    },
+    {
       title: "CITI Program",
       subtitle: "CITI",
       logo_path: "citi.png",
@@ -411,20 +420,32 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work and Internship",
+  subtitle: "Work and Internships",
   description:
-    "I have worked at Andela as a software developer using different stacks to build web applications",
+    "I worked in team and individual projects, I have currently worked in 3 main companies, Carnegie Mellon University Africa, Andela and Flex Platforms",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
+					"title": "Research Associate, Carnegie Mellon University Africa",
+					"company": "CMU Africa",
+					"company_url": "https://www.africa.engineering.cmu.edu/",
+					"logo_path": "Cmu-logo.png",
+					"duration": "June 2025 - Present",
+					"location": "Kigali - Rwanda",
+					"description":
+						" I am responsible for designing and developing a prototype Android application that simulates Mobile Money functionality. My work involves conducting usability testing, user interviews, and analyzing both qualitative and quantitative data to inform design improvements \
+I also focus on understanding the privacy and security challenges that emerge from users’ everyday interactions with Mobile Money applications, with an emphasis on identifying behavioral patterns and user concerns. This role combines user-centered design, field research, and technical development to contribute to the advancement of secure and user-friendly digital financial services",
+					"color": "#9b1578"
+				},
+        {
 					"title": "Graduate Research Assistant, Carnegie Mellon University Africa",
 					"company": "CMU Africa",
 					"company_url": "https://www.africa.engineering.cmu.edu/",
 					"logo_path": "Cmu-logo.png",
-					"duration": "June 2024 - Present",
+					"duration": "June 2024 - May 2025",
 					"location": "Kigali - Rwanda",
 					"description":
 						"I am working on a research project, The goal of the project is to develop e-government services' evaluation framework based on the four dimensions, accessibility, usability, affordability and availability.",
@@ -621,13 +642,13 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "Rwanda, Kigali, Nyarugenge",
+      "Rwanda, Kigali, Gasabo",
     avatar_image_path: "location.png",
-    location_map_link: "https://goo.gl/maps/9Zp9UG2woSE8V1UX9",
+    location_map_link: "https://g.co/kgs/vd2jQ1o",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+250726381516",
+    subtitle: "+250786938249",
   },
 };
 
