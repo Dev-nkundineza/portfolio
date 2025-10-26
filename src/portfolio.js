@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "David's Portfolio",
   description:
-    "A dedicated software developer, tech enthusiast, committed to developing solutions employing coding talents to produce impactful, scalable, and technological systems",
+    "A dedicated software developer, tech enthusiast, and HCI researcher committed to developing solutions employing coding talents to produce impactful, scalable, secure and privacy-preserving technological systems ",
   og: {
     title: "David",
     type: "portfolio website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "DavidNkundineza",
   nickname: "Dave",
   subTitle:
-    "A dedicated software developer, tech enthusiast, committed to developing solutions employing coding talents to produce impactful, scalable, and technological systems ",
+    "A dedicated software developer, tech enthusiast, and HCI researcher committed to developing solutions employing coding talents to produce impactful, scalable, secure and privacy-preserving technological systems ",
   resumeLink:
     "https://drive.google.com/file/d/12fVeE0yfhiheR0J4VUXcNxgIlrlBmrKo/view?usp=drive_link",
   portfolio_repository: "https://github.com/Dev-nkundineza",
@@ -64,9 +64,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
+        "⚡ Building responsive website front end using React, Redux, HTML5, CSS3, and Sass",
         "⚡ Creating application backend using Node, Express, GraphQl, Apollo, Typescript, Django",
-        "⚡ Integration of third-party services such as AWS and Firebase, as well as databases like Mysql,MongoDB, Postgres, Cassandra, and Neo4j.",	
+        "⚡ Integration of third-party services such as Firebase, as well as databases like Mysql,MongoDB, Postgres, Cassandra, and Neo4j.",	
       ],
       softwareSkills: [
         {
@@ -106,13 +106,6 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
           skillName: "TypeScript",
           fontAwesomeClassname: "simple-icons:typescript",
           style: {
@@ -120,96 +113,74 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "HCI Researcher",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Usability and accessibility testing",
+        "⚡ Security and privacy perception studies",
+        "⚡ User experience evaluation and analysis",
+        "⚡ Human-centered and participatory design",
+        "⚡ Qualitative and quantitative user research",
+        "⚡ Digital transformation and technology adoption",
+        "⚡ Contextual inquiry and field observations",
+        "⚡ Data-driven design insights",
       ],
       softwareSkills: [
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "privacy",
+          fontAwesomeClassname: "fa-eye-slash",
           style: {
             color: "#FF9900",
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "Security",
+          fontAwesomeClassname: "fa-lock",
           style: {
             color: "#0089D6",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "UX",
+          fontAwesomeClassname: "fa-heart",
           style: {
             color: "#336791",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "HCI",
+          fontAwesomeClassname: "fa-mobile-phone",
           style: {
             color: "#47A248",
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "Accessibility",
+          fontAwesomeClassname: "fa-universal-access",
           style: {
-            color: "#1488C6",
+            color: "#47A248",
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "Signal",
+          fontAwesomeClassname: "fa-walkie-talkie",
           style: {
-            color: "#326CE5",
+            color: "#47A248",
           },
         },
-        {
-          skillName: "hadoop",
-          fontAwesomeClassname: "simple-icons:apachehadoop",
-          style: {
-            color: "#66CCFF",
-          },
-        },
-        {
-          skillName: "cassandra",
-          fontAwesomeClassname: "simple-icons:apachecassandra",
-          style: {
-            color: "#1287B1",
-          },
-          },
       ],
     },
     {
       title: "Big Data analytics",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ ETL, Data Warehousing, Data Modelling, Data Mining, Data Analysis, Data Visualization",
-        "⚡ Experience in working with programming languages like Python, and R",
-        "⚡ Experience in working with databases like Neo4j, Cassandra, MongoDB, Mysql, Postgres",
-        "⚡ Experience in working with distributed file systems, HDFS and GFS",	
+        "⚡ ETL, Data warehousing, Modelling, Mining, Analysis, and Visualization",
+        "⚡ Programming languages in DA: Python",
+        "⚡ Databases: Neo4j, Cassandra, MongoDB, Mysql, Postgres",
+        "⚡ Distributed file systems: HDFS and GFS",	
       ],
       softwareSkills: [
         {
@@ -302,8 +273,7 @@ const degrees = {
       descriptions: [
         "⚡ I have gained comprehensive knowledge of software engineering, data science, cloud computing, and Research methodologies.", 
       ],
-
-    
+      website_link: "https://www.africa.engineering.cmu.edu/",
     },
 
     {
@@ -329,6 +299,24 @@ const certifications = {
       logo_path: "Cmu-logo.png",
       certificate_link:
         "https://drive.google.com/file/d/1fhF38sHj8YGNvrw2Hz9hRpNDdTlH2V0r/view?usp=drive_link",
+      alt_name: "MSIT",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Bachelors in Information Technology",
+      subtitle: "Degree",
+      logo_path: "UR.jpeg",
+      certificate_link:
+        "https://drive.google.com/file/d/1bFlnynRTNSRWrD5QC-Ggfaue4olGc5Yd/view?usp=sharing",
+      alt_name: "MSIT",
+      color_code: "#8C151599",
+    },
+     {
+      title: "Data Science Certification",
+      subtitle: "Certificate",
+      logo_path: "coursera.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1bxFdt2djq-KmjaZRhNIIxBqDdo1qqOSy/view?usp=sharing",
       alt_name: "MSIT",
       color_code: "#8C151599",
     },
@@ -422,17 +410,17 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internships",
   description:
-    "I worked in team and individual projects, I have currently worked in 3 main companies, Carnegie Mellon University Africa, Andela and Flex Platforms",
+    "I worked in team and individual projects, I have currently worked in two main companies, and two universities",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-					"title": "Research Associate, Carnegie Mellon University Africa",
-					"company": "CMU Africa",
-					"company_url": "https://www.africa.engineering.cmu.edu/",
-					"logo_path": "Cmu-logo.png",
+					"title": "Research Associate, University of Chicago",
+					"company": "University of Chicago",
+					"company_url": "https://www.uchicago.edu/",
+					"logo_path": "uchicago.png",
 					"duration": "June 2025 - Present",
 					"location": "Kigali - Rwanda",
 					"description":
@@ -441,11 +429,11 @@ I also focus on understanding the privacy and security challenges that emerge fr
 					"color": "#9b1578"
 				},
         {
-					"title": "Graduate Research Assistant, Carnegie Mellon University Africa",
+					"title": "Research Associate, Carnegie Mellon University Africa",
 					"company": "CMU Africa",
 					"company_url": "https://www.africa.engineering.cmu.edu/",
 					"logo_path": "Cmu-logo.png",
-					"duration": "June 2024 - May 2025",
+					"duration": "June 2025 - Present",
 					"location": "Kigali - Rwanda",
 					"description":
 						"I am working on a research project, The goal of the project is to develop e-government services' evaluation framework based on the four dimensions, accessibility, usability, affordability and availability.",
@@ -470,7 +458,7 @@ I also focus on understanding the privacy and security challenges that emerge fr
 					"duration": "December 2021 - November 2022",
 					"location": "Kigali - Rwanda",
 					"description":
-						"I worked on a team project, The goal of the project was to make company global travel and accommodation easy and convenient for the strong workforce of savvy members of staff, by leveraging the modern web ",
+						"I worked on the Edutech platform, this was the team project, my primary features implemented is the grading, rating trainees and approvals of the trainees",
 					"color": "#9b1578"
 				},
       ],
@@ -500,20 +488,51 @@ I also focus on understanding the privacy and security challenges that emerge fr
 				}
       ],
     },
-    // {
-    //   title: "Volunteerships",
-    //   experiences: [
-    //     {
-    //       title: "Google Explore ML Facilitator",
-    //       company: "Google",
-    //       company_url: "https://about.google/",
-    //       logo_path: "google_logo.png",
-    //       duration: "June 2019 - April 2020",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-    //       color: "#4285F4",
-    //     },
+    {
+      title: "Workshops and Conferences",
+      experiences: [
+        {
+          "title": "AfriCHI",
+					"company": "AfriCHI conference",
+					"company_url": "https://www.africhi2025.org/accepted-contributions/",
+					"logo_path": "Cmu-logo.png",
+					"duration": "November 2025",
+					"location": "Cairo, Egypt",
+					"description": "I presented my research work on 'Evaluating User Experience of Government and E-Government Services: A Technology-Neutral Ecosystem Lens' at the AfriCHI conference, click on 'AfriCHI conference' below the title for more info about the conference.",
+					"color": "#ee3c26"
+        },
+        {
+          "title": "UR-CMU Research Symposium",
+					"company": "AFRETEC",
+					"company_url": "https://drive.google.com/file/d/1xd0BZY7nn4tHzrqFt9ORWVTijhZE7Goy/view?usp=sharing",
+					"logo_path": "Cmu-logo.png",
+					"duration": "14th May 2025",
+					"location": "Kigali, Rwanda",
+					"description": "I presented my research work on 'Evaluating user experience in e-government services in Rwanda' at the UR-CMU Research Symposium organized by AFRETEC, click on 'Afretec' below the title for more info.",
+					"color": "#ee3c26"
+        },
+        {
+          "title": "ICTD 2024 Conference",
+					"company": "ICTD",
+					"company_url": "https://ictd.org/",
+					"logo_path": "ICTD.png",
+					"duration": "December 2024",
+					"location": "Nairobi, Kenya",
+					"description": "At this conference, I presented my paper on E-government ecosystem evaluation framework, the paper is co-authored with my supervisor Prof Tim Brown, with the poster we presented the work and got feedback from other researchers in the HCI field.",
+					"color": "#ee3c26"
+        },
+        {
+          "title": "HCI Across Borders (HCIxB) and Aspirations in ICTD 2024 Workshops",
+					"company": "ICTD",
+					"company_url": "https://hcixb.org/events/hci-across-borders-workshop-at-ictd-2024/",
+					"logo_path": "ICTD.png",
+					"duration": "December 2024",
+					"location": "Nairobi, Kenya",
+					"description": "I led the discussion group and delivered a lightning talk on 'HCIxB and Aspirations in e-government services' held alongside the ICTD 2024 conference.",
+					"color": "#ee3c26"
+        },
+      ],
+    },
     //     {
     //       title: "Microsoft Student Partner",
     //       company: "Microsoft",
@@ -583,43 +602,19 @@ const publications = {
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "Evaluating User Experience of Government and E-Government Services: A technology-neutral ecosystem lens",
+      createdAt: "November 2025",
+      description: "Paper on Human–Computer Interaction and Usability presented and published at the AfriCHI Conference 2025",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "http://camps.aptaracorp.com/ACM_PMS/PMS/ACM/AFRICHI2025/23/31b93e0e-6f16-11f0-957d-16ffd757ba29/OUT/africhi2025-23.html",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "Security and Privacy Considerations for Payment-Confirmation Screens in Mobile Money Systems",
+      createdAt: ": Not yet published",
+      description: "On-going research work on Mobile Money Security and Privacy",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://docs.google.com/presentation/d/1cxpa-UL7OoJOjzr44s6N2ZPGSO28asFS/edit?usp=sharing&ouid=114434990972197545165&rtpof=true&sd=true",
     },
   ],
 };
@@ -630,7 +625,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "profilepic.png",
     description:
-      "Hi, I am available on my social media platforms and ready to help you with Reactjs,Typescript, javascript,Cloud computing, Data analysis and other projects for solving the problems that community is facing",
+      "Hi, I am available on my social media platforms and ready to help you with Research projects, software and HCI projects and other projects for solving the community's challenges",
   },
   // blogSection: {
   //   title: "Blogs",
