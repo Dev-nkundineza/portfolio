@@ -606,7 +606,7 @@ const publications = {
       createdAt: "November 2025",
       description: "Paper on Human–Computer Interaction and Usability presented and published at the AfriCHI Conference 2025",
       url:
-        "http://camps.aptaracorp.com/ACM_PMS/PMS/ACM/AFRICHI2025/23/31b93e0e-6f16-11f0-957d-16ffd757ba29/OUT/africhi2025-23.html",
+        "https://doi.org/10.1145/3757232.3757264",
     },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
