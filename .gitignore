@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignore archived unused images
+src/assests/images/archive-unused-*
