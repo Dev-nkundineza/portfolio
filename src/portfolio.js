@@ -424,8 +424,8 @@ const experience = {
 					"duration": "June 2025 - Present",
 					"location": "Kigali - Rwanda",
 					"description":
-						" I am responsible for designing and developing a prototype Android application that simulates Mobile Money functionality. My work involves conducting usability testing, user interviews, and analyzing both qualitative and quantitative data to inform design improvements \
-I also focus on understanding the privacy and security challenges that emerge from users’ everyday interactions with Mobile Money applications, with an emphasis on identifying behavioral patterns and user concerns. This role combines user-centered design, field research, and technical development to contribute to the advancement of secure and user-friendly digital financial services",
+						`I am responsible for designing and developing a prototype Android application that simulates Mobile Money functionality. My work involves conducting usability testing, user interviews, and analyzing both qualitative and quantitative data to inform design improvements 
+I also focus on understanding the privacy and security challenges that emerge from users’ everyday interactions with Mobile Money applications, with an emphasis on identifying behavioral patterns and user concerns. This role combines user-centered design, field research, and technical development to contribute to the advancement of secure and user-friendly digital financial services`,
 					"color": "#9b1578"
 				},
         {
@@ -619,6 +619,50 @@ const publications = {
   ],
 };
 
+// Media Page
+const mediaPageData = {
+  mediaHeader: {
+    title: "Media & Conferences",
+    description: "Conferences I've attended and presented at, with media coverage and photos from each event"
+  },
+  conferences: [
+    {
+      id: 1,
+      name: "USENIX 2026",
+      location: "Security & Technology",
+      description: "USENIX Security and Technology Conference",
+      images: [
+        "Conferences/Usenix/usenix1.jpg",
+        "Conferences/Usenix/usenix2.jpg",
+        "Conferences/Usenix/usenix3.jpeg",
+        "Conferences/Usenix/usenix4.jpeg",
+        "Conferences/Usenix/usenix5.jpg"
+      ]
+    },
+    {
+      id: 2,
+      name: "AfriCHI 2025",
+      location: "Egypt",
+      description: "African Conference on Human-Computer Interaction",
+      images: [
+        "Conferences/AfriCHI/Egypt1.jpg",
+        "Conferences/AfriCHI/Egypt2.jpg",
+        "Conferences/AfriCHI/Egypt3.jpg"
+      ]
+    },
+    {
+      id: 3,
+      name: "ICTD 2024",
+      location: "Kenya",
+      description: "Information and Communication Technologies and Development",
+      images: [
+        "Conferences/ICTD/Kenya1.jpg",
+        "Conferences/ICTD/Kenya2.jpg"
+      ]
+    }
+  ]
+};
+
 // Contact Page
 const contactPageData = {
   contactSection: {
@@ -660,5 +704,6 @@ export {
   projectsHeader,
   publicationsHeader,
   publications,
+  mediaPageData,
   contactPageData,
 };

@@ -7,6 +7,7 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import Media from "../pages/media/MediaComponent";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -51,6 +52,10 @@ export default class Main extends Component {
                   element={<Projects theme={this.props.theme} />}
                 />
                 <Route
+                  path="/media"
+                  element={<Media theme={this.props.theme} />}
+                />
+                <Route
                   path="*"
                   element={<Error404 theme={this.props.theme} />}
                 />
@@ -84,6 +89,10 @@ export default class Main extends Component {
                 <Route
                   path="/projects"
                   element={<Projects theme={this.props.theme} />}
+                />
+                <Route
+                  path="/media"
+                  element={<Media theme={this.props.theme} />}
                 />
                 <Route
                   path="*"
