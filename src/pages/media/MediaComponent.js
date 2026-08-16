@@ -2,12 +2,10 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
 import MediaImg from "./MediaImg";
 import { Fade } from "react-reveal";
 import "./MediaComponent.css";
-import { greeting, mediaPageData } from "../../portfolio.js";
+import { mediaPageData } from "../../portfolio.js";
 
 class Media extends Component {
   render() {
@@ -70,7 +68,7 @@ class Media extends Component {
                       <div key={index} className="conference-image-card">
                         <img
                           src={require(`../../assests/images/${imagePath}`)}
-                          alt={`${conference.name} - Image ${index + 1}`}
+                          alt={`${conference.name} - ${index + 1}`}
                         />
                       </div>
                     ))}

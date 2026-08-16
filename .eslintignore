@@ -1,0 +1,16 @@
+# Third-party libraries and generated files
+node_modules/
+build/
+dist/
+.git/
+
+# Font Awesome library files
+src/assests/font-awesome/
+
+# Service worker and test files
+src/serviceWorker.js
+src/setupTests.js
+src/reportWebVitals.js
+
+# Build outputs
+public/
